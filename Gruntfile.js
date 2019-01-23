@@ -15,6 +15,10 @@ module.exports = function(grunt) {
       var urls = app.additionalUrls || []
       urls.unshift(app.url)
       args.push('--internal-urls', `^(${urls.join(")|(")})`)
+      if (app.icon) {
+        console.log(`icon: ${app.icon}`);
+        args.push('--icon', app.icon);
+      }
       args.push(app.url, 'build');
       console.log(`Running: yarn ${args.join(' ')}`)
       grunt.util.spawn({
@@ -39,7 +43,7 @@ module.exports = function(grunt) {
       var app = apps[identifier]
       grunt.util.spawn({
         cmd: 'ditto',
-        args: [`build/${app.name}-darwin-x64/${app.name}.app`, `/Applications/${app.name}.app`]
+        args: [`build/${app.name}-darwin-x64/${app.name}.app`, `/Users/clifbromley/Applications/${app.name}.app`]
       }, function(error, result, code) {
         console.log(String(result))
         done()
