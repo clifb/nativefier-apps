@@ -81,6 +81,7 @@
     "name": "BambooHR",
     "url": "https://chimp.bamboohr.com/login.php?r=%2Fdashboard%2F",
     "icon": "icons/bamboohr.icns",
+    "additionalUrls": ["chimp.bamboohr.com"],
     "options": [
       "--counter",
       "--single-instance",
