@@ -4,6 +4,7 @@
     "url": "https://mail.google.com/mail/u/0/#inbox",
     "icon": "icons/gmail.icns",
     "additionalUrls": [
+      "https://mail.google.com",
       "https://accounts.google.com",
       "https://accounts.youtube.com"
     ],
