@@ -72,6 +72,7 @@
     "name": "CAFT",
     "url": "https://paymentdirect.central1.com/caft/main/default.asp?SID=90292345&SUID=CB000270&lf=generic",
     "icon": "icons/caft.icns",
+    "additionalUrls": ["https://paymentdirect.central1.com/"],
     "options": [
       "--counter",
       "--single-instance",
