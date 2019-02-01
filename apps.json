@@ -61,6 +61,7 @@
     "name": "Mailinator",
     "url": "https://www.mailinator.com/v3/index.jsp?zone=public&query=jbzanti",
     "icon": "icons/mailinator.icns",
+    "additionalUrls": ["(https)|(wss)://www.mailinator.com/"],
     "options": [
       "--counter",
       "--single-instance",
