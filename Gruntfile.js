@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     if (identifier != undefined) {
       var done = this.async()
       var app = apps[identifier]
-      var args = ['exec', '--', 'nativefier', '--name', app.name]
+      var args = ['nativefier', '--name', app.name]
       if (app.options) {
         args.push(...app.options);
       }
@@ -20,9 +20,9 @@ module.exports = function(grunt) {
         args.push('--icon', app.icon);
       }
       args.push(app.url, 'build');
-      console.log(`Running: yarn ${args.join(' ')}`)
+      console.log(`Running: npx ${args.join(' ')}`)
       grunt.util.spawn({
-        cmd: 'yarn',
+        cmd: 'npx',
         args: args
       }, function(error, result, code) {
         console.log(String(result))

@@ -11,14 +11,13 @@ Builds apps using nativefier:
 
 ```bash
 brew install node
-brew install yarn
 brew install grunt-cli
 ```
 
 ## Usage
 
 ```bash
-yarn install
+npm install
 grunt build && grunt install
 ```
 
