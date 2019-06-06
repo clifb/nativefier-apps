@@ -7,7 +7,7 @@
   "author": "David Kramer <bacongravy@icloud.com>",
   "license": "MIT",
   "dependencies": {
-    "grunt": "^1.0.3",
-    "nativefier": "^7.6.8"
+    "grunt": "^1.0.4",
+    "nativefier": "^7.6.12"
   }
 }
