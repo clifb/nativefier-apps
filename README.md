@@ -2,10 +2,10 @@
 
 Builds apps using nativefier:
 
-* GIPHY
-* Gmail
-* Google Calendar
-* Puppet Tickets
+* BambooHR
+* Google Contacts
+* Google Music
+* Mailinator
 
 ## Dependencies
 

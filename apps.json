@@ -1,24 +1,9 @@
 {
-  "gmail": {
-    "name": "Gmail",
-    "url": "https://mail.google.com/mail/u/0/#inbox",
-    "icon": "icons/gmail.icns",
-    "additionalUrls": [
-      "https://mail.google.com",
-      "https://accounts.google.com",
-      "https://accounts.youtube.com"
-    ],
-    "options": [
-      "--counter",
-      "--single-instance",
-      "--fast-quit"
-    ]
-  },
-  "google-calendar": {
-    "name": "Google Calendar",
-    "url": "https://calendar.google.com/",
-    "icon": "icons/google-calendar.icns",
-    "additionalUrls": ["accounts.google.*/"],
+  "bamboohr": {
+    "name": "BambooHR",
+    "url": "https://chimp.bamboohr.com/login.php?r=%2Fdashboard%2F",
+    "icon": "icons/bamboohr.icns",
+    "additionalUrls": ["chimp.bamboohr.com"],
     "options": [
       "--counter",
       "--single-instance",
@@ -47,54 +32,11 @@
       "--fast-quit"
     ]
   },
-  "metabase": {
-    "name": "Metabase",
-    "url": "https://data.chimp.net",
-    "icon": "icons/metabase.icns",
-    "additionalUrls": ["accounts.google.*/"],
-    "options": [
-      "--single-instance",
-      "--fast-quit"
-    ]
-  },
   "mailinator": {
     "name": "Mailinator",
     "url": "https://www.mailinator.com/v3/index.jsp?zone=public&query=jbzanti",
     "icon": "icons/mailinator.icns",
     "additionalUrls": ["(https)|(wss)://www.mailinator.com/"],
-    "options": [
-      "--counter",
-      "--single-instance",
-      "--fast-quit"
-    ]
-  },
-  "caft": {
-    "name": "CAFT",
-    "url": "https://paymentdirect.central1.com/caft/main/default.asp?SID=90292345&SUID=CB000270&lf=generic",
-    "icon": "icons/caft.icns",
-    "additionalUrls": ["https://paymentdirect.central1.com/"],
-    "options": [
-      "--counter",
-      "--single-instance",
-      "--fast-quit"
-    ]
-  },
-  "bamboo-hr": {
-    "name": "BambooHR",
-    "url": "https://chimp.bamboohr.com/login.php?r=%2Fdashboard%2F",
-    "icon": "icons/bamboohr.icns",
-    "additionalUrls": ["chimp.bamboohr.com"],
-    "options": [
-      "--counter",
-      "--single-instance",
-      "--fast-quit"
-    ]
-  },
-  "confluence": {
-    "name": "Confluence",
-    "url": "https://chimptech.atlassian.net/wiki",
-    "icon": "icons/confluence.icns",
-    "additionalUrls": [".*\\.atlassian\\.(net|com).*"],
     "options": [
       "--counter",
       "--single-instance",
